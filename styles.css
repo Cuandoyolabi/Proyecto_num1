@@ -36,11 +36,15 @@ body{
 
 .ilustration{
     width: 278px;
+    height: 190px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .ilustration-div{
-    width: 278px;
+    width: 280px;
+    height: 190px;
+    
     margin: 25px 0px 0px 25px;
 }
 
@@ -48,7 +52,7 @@ body{
     width: 70px;
     height: 27px;
     border-radius: 5px;
-    margin: 25px 27px;
+    margin: 15px 27px;
     justify-content: center;
     font-weight: bolder;
     font-size: 11px;
@@ -84,7 +88,10 @@ body{
     display: flex;
     justify-content: left;
     align-items: center;
-    
+}
+
+.greg-container span{
+    margin-top: 9px;
 }
 
 .greg-hooper-img{
