@@ -22,16 +22,22 @@
 /*--------------------Body----------------------*/
 body{
     background-color: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
 /* -------------------Presentetation Card-----------*/
 .container{
     background-color: var(--White);
     width: 329px;
     height: 503px;
-    margin: 81px 20px;
     border: 1px solid black;
     border-radius: 14px;
     box-shadow: 10px 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .ilustration{
@@ -100,3 +106,9 @@ body{
     margin-right: 10px;
 }
 
+/*----------------(600px)-------------------*/
+@media only screen and (min-width: 600px){
+       container{
+
+       }
+}
