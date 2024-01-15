@@ -15,7 +15,10 @@
 }
 
 /*--------------------Header------------------*/
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; text-align: center;
+    margin-top: 60px;
+}
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -23,6 +26,7 @@
 body{
     background-color: var(--Yellow);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -104,11 +108,4 @@ body{
     width: 30px;
     margin-top: 11px;
     margin-right: 10px;
-}
-
-/*----------------(600px)-------------------*/
-@media only screen and (min-width: 600px){
-       container{
-
-       }
 }
