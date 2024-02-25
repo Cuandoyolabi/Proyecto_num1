@@ -32,7 +32,7 @@ body{
     height: 100vh;
 }
 
-/* -------------------Presentetation Card-----------*/
+/* -------------Presentetation Card-----------*/
 .container{
     background-color: var(--White);
     width: 329px;
@@ -76,18 +76,22 @@ body{
     font-size: 12px;
     font-weight: lighter;
 }
+
 .left{
     margin-left: 25px;
 }
+
 .down{
     margin-bottom: 18px;
 }
+
 .tittle{
     font-weight: bold;
     color: var(--Black);
     margin-right: 15px;
     font-size: 19px;
 }
+
 .informative-text{
     font-size: 15px;
     font-weight: 600;
