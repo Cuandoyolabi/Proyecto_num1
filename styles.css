@@ -51,14 +51,13 @@ body{
     object-fit: cover;
 }
 
-.ilustration-div{
+.container__ilustration__div{
     width: 280px;
     height: 190px;
-    
     margin: 25px 0px 0px 25px;
 }
 
-.learning-div{
+.container__learning__div{
     width: 70px;
     height: 27px;
     border-radius: 5px;
@@ -72,16 +71,16 @@ body{
     background-color: var(--Yellow);
 }
 
-.lighter{
+.font__lighter{
     font-size: 12px;
     font-weight: lighter;
 }
 
-.left{
+.margin__left{
     margin-left: 25px;
 }
 
-.down{
+.margin__down{
     margin-bottom: 18px;
 }
 
@@ -92,24 +91,23 @@ body{
     font-size: 19px;
 }
 
-.informative-text{
+.informative__text{
     font-size: 15px;
     font-weight: 600;
     color: var(--Grey);
 }
 
-.greg-container{
+.greg__container{
     display: flex;
     justify-content: left;
     align-items: center;
 }
 
-.greg-container span{
+.greg__container span{
     margin-top: 9px;
 }
 
-.greg-hooper-img{
+.greg__hooper__img{
     width: 30px;
-    margin-top: 11px;
-    margin-right: 10px;
+    margin: 11px 10px 0px 25px;
 }
